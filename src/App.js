@@ -1,5 +1,6 @@
 import './App.css';
-import UserProfile from './UserProfile'
+import UserProfile from './UserProfile.js'
+import { AvailabilityCheck } from './AvailabilityCheck';
 
 function App() {
   // const a = 15;
@@ -14,8 +15,9 @@ function App() {
     <div className="App">
 
       <h1>Adding logic</h1>
-
+    <AvailabilityCheck />
     <UserProfile />
+    
 
       {/* {
        sum > 30

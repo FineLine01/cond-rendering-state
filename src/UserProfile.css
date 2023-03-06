@@ -1,0 +1,19 @@
+.btn-img {
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(123, 136, 132);
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    top: 30px;
+}
+
+.userProfile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
