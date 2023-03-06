@@ -1,25 +1,31 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const a = 15;
+  const b = 25;
+  const sum = a + b;
+
+  const c = 200;
+  const d = 15;
+
+  const quotient = a / b;
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Adding logic</h1>
+
+      {
+       sum > 30
+       ?
+       <p>The sum is higher than 30</p>
+       :
+       <p style={{backgroundColor:'red', color:'#fff'}}>
+        Error: lower than 30
+       </p>
+      }
+      <p>The quotient of {c} and {d} is {quotient}</p>
+
     </div>
-  );
+  ); 
 }
 
 export default App;
