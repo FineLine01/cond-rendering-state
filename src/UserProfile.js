@@ -26,7 +26,7 @@ export default function UserProfile() {
         return (
         <div className="userProfile">
         <h3>{userName}</h3>
-        <img src={imageSrc} alt="" width="500"/>
+        <img src={imageSrc} alt="" width="250"/>
         <button className="btn-img" onClick={changeImage}>Change image</button>
         </div>
     )
