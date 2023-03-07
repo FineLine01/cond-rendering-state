@@ -17,8 +17,6 @@ function App() {
     <Counter />
     <ColorPicker />
     <UserProfile />
-    
-
     </div>
   ); 
 }
