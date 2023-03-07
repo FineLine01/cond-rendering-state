@@ -1,10 +1,10 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import  UserProfile  from './UserProfile.js';
-import  { AvailabilityCheck }  from './AvailabilityCheck';
-import  Counter  from './Counter';
-import ColorPicker from './ColorPicker';
-import LoginLogout from './LoginLogout';
+import  UserProfile  from './components/UserProfile';
+import  { AvailabilityCheck }  from './components/AvailabilityCheck';
+import  Counter  from './components/Counter';
+import ColorPicker from './components/ColorPicker';
+import LoginLogout from './components/LoginLogout';
 
 function App() {
 

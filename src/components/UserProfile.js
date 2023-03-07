@@ -1,7 +1,5 @@
 //First import the useStat hook
-import './UserProfile.css'
 import { useState } from 'react';
-
 export default function UserProfile() {
 
     // Initiate the state variable
